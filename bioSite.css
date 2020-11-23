@@ -1,0 +1,107 @@
+html, body {
+    font-size: 16px;
+    margin: 0.5;
+    padding: 0.5;
+}
+
+p {
+    font-family: "Merriweather";
+    font-weight: 300;
+    
+}
+
+h1, h2 {
+    font-family: "Lato";
+}
+
+
+.header {
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+    background: chocolate;
+    color: cornsilk;
+    font-size: 20px;
+    margin: 0px;
+}
+
+ul#header-links {
+    font-family: "Lato";
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+ul#header-links li {
+    display: inline;
+    text-decoration: none;
+}
+
+#header-links li {
+    float: left;
+}
+
+#header-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#header-links li a:hover {
+    background-color: chocolate;
+}
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.btn-grp button {
+    border: 1px  orangered;
+    background-color: chocolate;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    float: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Lato";
+    border-radius: 15px;
+}
+
+.btn-grp button:hover {
+    background-color: wheat;
+}
+
+.valero-btn {
+    background-image: url("images/valero1.png");
+    background-size: 200px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.club-btn {
+    background-image: url("images/Logo.png");
+    background-size: 200px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 500%;
+    padding: 0px;
+    text-align: left;
+    background: chocolate;
+    color: cornsilk;
+    font-size: 20px;
+    margin: 0px;
+}
