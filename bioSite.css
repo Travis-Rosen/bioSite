@@ -14,6 +14,10 @@ h1, h2 {
     font-family: "Lato";
 }
 
+body {
+    background-image: linear-gradient(to bottom right,white, silver);
+}
+
 
 .header {
     width: 100%;
@@ -23,6 +27,7 @@ h1, h2 {
     color: cornsilk;
     font-size: 20px;
     margin: 0px;
+    border: solid black;
 }
 
 ul#header-links {
@@ -32,6 +37,8 @@ ul#header-links {
     padding:0;
     overflow: hidden;
     background-color: black;
+    text-align: center;
+    
 
 }
 
@@ -42,6 +49,8 @@ ul#header-links li {
 
 #header-links li {
     float: left;
+    border: solid black;
+    border-radius: 20px;
 }
 
 #header-links li a {
@@ -55,13 +64,29 @@ ul#header-links li {
     background-color: chocolate;
 }
 
-.cover {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 8px;
+#cover{
+    text-align: center;
+    
 }
+
+
+
+.coverimg {
+    width: 604px;
+    height:  453px;
+    margin: auto;
+    border: double black;
+
+    background-image: url("images/steve4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+   
+}
+
+
+
 
 .btn-grp button {
     border: 1px  orangered;
@@ -75,6 +100,7 @@ ul#header-links li {
     padding: 10px;
     font-size: 16px;
     font-family: "Lato";
+    border: double black;
     border-radius: 15px;
 }
 
@@ -96,8 +122,17 @@ ul#header-links li {
     background-repeat: no-repeat;
 }
 
-.footer {
-    width: 500%;
+.pngimg {
+    float: right;
+    padding: 100px;
+    margin: 20px;
+    position: relative;
+    top: -200px;
+    
+}
+
+#footer {
+    width: 100%;
     padding: 0px;
     text-align: left;
     background: chocolate;
@@ -105,3 +140,39 @@ ul#header-links li {
     font-size: 20px;
     margin: 0px;
 }
+
+h1 {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 300%;
+    text-align: center;
+    color: chocolate;
+}
+
+#top {
+    background-image: linear-gradient(to bottom right,white, silver);
+    width: 350px;
+    border: outset chocolate;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: "Lato";
+}
+
+.org {
+    color: chocolate;
+    
+}
+
+.fam {
+    color: chocolate;
+}
+
+.work {
+    color: chocolate;
+}
+
