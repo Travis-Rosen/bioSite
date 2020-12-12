@@ -6,7 +6,6 @@
     <title>BiositeProject</title>
     
     <link href="bioSite.css" type="text/css" rel="stylesheet">
-    <script src="myScript.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap" rel="stylesheet">
 
 
@@ -80,11 +79,13 @@
                 <div class="Fam2">
                     <h2 id="Family" class="fam">Family</h2>
                     <p class="p3">After meeting my Mom, Stephen’s family began to form. First came my elder brother, Brandon, who was born in 1995. Then came Travis, or me, born in the best year, 97’. Next- Actually, this might look better to just show you!<br /> </p>
-                </div>   
+                </div>
+
                 <br />
                 <div class="Family-Tree"></div>
 
                 <br /><hr />
+                <br>
 
                 <h2 id="Work" class="work">Work & Community</h2>
                 <p class="p4">Currently, Steve is the Executive Director of Financial and Administrative Systems at Valero Energy. This year marks 20 years at Valero for him. He has been, in my humble and professional opinion, one of the most hard-working and loyal employees for Valero. His career is filled with accomplishments and highlights. A few years ago, he led a team into the UK and Ireland on an acquisitions project. It was the companies first venture into Europe. There is a ton of other fantastic achievements my dad has completed while at Valero, and while I do not really understand much of it, he has continuously proven himself as a motivated and diligent man.  Not only is he a hard worker, but he puts forth a ton of effort for the betterment of his community. He is currently one of the board members for The Boys and Girls Club of San Antonio. </p>
@@ -96,54 +97,51 @@
 
                     <div class="mySlides fade">
                         <div class="numbertext">1 / 3</div>
-                            <img src="images/Steve2.jpg" style="width:100%">
-                            <div class="text">The Final Jedi</div>
-                        </div>
+                        <img src="images/Steve2.jpg" style="width:100%">
+                        <div class="text">The Final Jedi</div>
+                    </div>
                         
-                        <div class="mySlides fade">
-                          <div class="numbertext">2 / 3</div>
-                          <img src="images/steve7.jpg" style="width:100%">
-                          <div class="text">Ma & Pa</div>
-                        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="images/steve7.jpg" style="width:100%">
+                        <div class="text">Ma & Pa</div>
+                    </div>
                         
-                        <div class="mySlides fade">
+                    <div class="mySlides fade">
                           <div class="numbertext">3 / 3</div>
                           <img src="images/steve8.jpg" style="width:100%">
                           <div class="text">The Beautiful Bride!</div>
-                        </div>
                     </div>
-                        
-                    
-                        <br>
-                        
-                     <div style="text-align:center">
-                          <span class="dot"></span> 
-                          <span class="dot"></span> 
-                          <span class="dot"></span> 
-                     </div>
-                        
-                        <script>
-                        var slideIndex = 0;
-                        showSlides();
-                        
-                        function showSlides() {
-                          var i;
-                          var slides = document.getElementsByClassName("mySlides");
-                          var dots = document.getElementsByClassName("dot");
-                          for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";  
-                        }
-                          slideIndex++;
-                          if (slideIndex > slides.length) {slideIndex = 1}    
-                          for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
-                        }
-                          slides[slideIndex-1].style.display = "block";  
-                          dots[slideIndex-1].className += " active";
-                          setTimeout(showSlides, 3000); 
-                        }
-                        </script>
                 </div>
+                <br>
+                        
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+                        
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+                        function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {slideIndex = 1}    
+                        for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";  
+                        dots[slideIndex-1].className += " active";
+                        setTimeout(showSlides, 3000); 
+                        }
+                </script>
+                
             </div>
                 
         </div>
