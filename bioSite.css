@@ -5,7 +5,7 @@ html, body {
 }
 
 p {
-    font-family: "Merriweather";
+    font-family: "Lato";
     font-weight: 300;
     
 }
@@ -13,7 +13,6 @@ p {
 h1, h2 {
     font-family: "Lato";
 }
-
 
 body {
     background-image: linear-gradient(to bottom right, Linen, wheat);
@@ -24,9 +23,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-
 }
-
 
 .header {
     width: 100%;
@@ -70,6 +67,7 @@ ul#header-links li {
     padding: 16px;
     text-decoration: none;
 }
+
 #header-links li a:hover {
     background-color: chocolate;
 }
@@ -79,15 +77,11 @@ ul#header-links li {
     
 }
 
-
-
 .coverimg {
     width: 604px;
     height:  453px;
     margin: auto;
     border-radius: 15px;
-    
-
     background-image: url("images/steve4.jpg");
     background-size: cover;
     background-position: center;
@@ -95,9 +89,6 @@ ul#header-links li {
     box-shadow: black 0px 15px 70px 0px;
    
 }
-
-
-
 
 .btn-grp button {
     border: 1px  orangered;
@@ -111,7 +102,6 @@ ul#header-links li {
     padding: 10px;
     font-size: 16px;
     font-family: "Lato";
-    
     border-radius: 15px;
     box-shadow: black 0px 0px 20px 0px;
 }
@@ -135,17 +125,13 @@ ul#header-links li {
 }
 
 .pngimg {
-    float: right;
     padding: 100px;
     margin: 20px;
     position: relative;
-    top: -100px;
-
-    
-    
+    float: right;
+    top: -1000px;
+    right: -100px;
 }
-
-
 
 h1 {
     font-family: "Lato";
@@ -158,27 +144,33 @@ h1 {
 
 h2 {
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: bold;
     font-style: italic;
     font-size: 35px;
     padding: 15px;
-   
-  
+    color: chocolate;
+    
 }
-
 
 #top {
     background-image: linear-gradient(to bottom right,white, silver);
-    width: 350px;
     border: outset chocolate;
     border-radius: 15px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    box-shadow: black 0px 5px 10px 0px;
 }
-
+    
 .p1 {
     text-align: center;
     font-family: "Lato";
+    font-size: 18px;
 }
 
 .p2 {
@@ -188,17 +180,13 @@ h2 {
     padding: 30px;
     margin: 10px;
     display: block;
-    
     border-radius: 15px;
-
     width: 40%;
     box-shadow: black 0px 5px 10px 0px;
 }
 
-
-
-
 .fam {
+    position: relative;
     text-align: center;
 }
 
@@ -209,18 +197,13 @@ h2 {
     padding: 30px;
     margin: 10px;
     display: block;
-    
     border-radius: 15px;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    width: 800px;
     box-shadow: black 0px 5px 10px 0px;
-}
-
-.work {
-    text-align: right;
 }
 
 .p4 {
@@ -229,7 +212,6 @@ h2 {
     background-color: chocolate;
     padding: 30px;
     margin: 10px;
-    display: block;
     border-radius: 15px;
     width: 60%;
     box-shadow: black 0px 5px 10px 0px;
@@ -243,34 +225,25 @@ h2 {
     border-radius: 15px;
     background: url("images/Family-Tree1.gif");
     box-shadow: black 0px 15px 50px 0px;
+}
 
+.Work2 {
+    margin-right: 0 px;
+    margin-left: auto;
 }
 
 .steph {
     text-align: center;
+    display: block;
 }
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 900px;
     position: relative;
     margin: auto;
 }
   
- 
-  .text {
-    font-family: "Lato";
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 970px;
-    text-align: center;
-}
-  
- 
-  .numbertext {
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
@@ -278,8 +251,7 @@ h2 {
     top: 0;
 }
   
- 
-  .dot {
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -289,35 +261,44 @@ h2 {
     transition: background-color 0.6s ease;
 }
   
-  .active {
+.active {
     background-color: #717171;
 }
-  
- 
-  .fade {
+
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
   
-  @-webkit-keyframes fade {
+@-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
 }
   
-  @keyframes fade {
+@keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
 }
   
+.back-top {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    background: chocolate;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 20px 0px;
+}
 
-
-
-
-
-
-
+.back-top:hover {
+    background-color: wheat;
+}
 
 footer {
     width: 100%;
